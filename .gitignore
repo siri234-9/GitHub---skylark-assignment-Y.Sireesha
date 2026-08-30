@@ -1,0 +1,13 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and source data files must never be committed
+*api_key*.txt
+*.xlsx
+*.xls
+sample_data/
